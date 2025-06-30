@@ -15,28 +15,38 @@ A lightweight AI-powered web application that predicts the risk of **Diabetes**,
 ---
 
 ## 🧱 Project Structure
-
+```text
+```text
 DiseasePredictor/
 ├── backend/
-│ ├── diabetes_api.py
-│ ├── heart_api.py
-│ ├── obesity_api.py
-│ ├── diabetes_model.h5
-│ ├── heart_model.h5
-│ ├── obesity_model.h5
-│ └── *.save (scalers)
+│   ├── diabetes_model.h5
+│   ├── heart_model.h5
+│   ├── obesity_model.h5
+│   ├── scaler_diab.save
+│   ├── scaler_heart.save
+│   ├── scaler_obesity.save
+│   ├── heartdis.py          # Python API for heart disease
+│   ├── obesity_model.py     # Python model training for obesity
+│   └── diabetes_model.py        # Python API for obesity
 ├── public/
-│ ├── index.html (Home page)
-│ ├── diabetes_form.html
-│ ├── heart_form.html
-│ ├── obesity_form.html
-│ ├── style.css
-│ └── script.js (shared or per-disease JS)
-├── app.js (Node.js Express server)
+│   ├── index.html           # Home page
+│   ├── diabetes_html.html
+│   ├── heart_html.html
+│   ├── obesity_html.html
+│   ├── diabetes_javascript.js
+│   ├── heart_javascript.js
+│   ├── obesity_javascript.js
+│   ├── diabetes_style.css
+│   ├── heart_style.css
+│   └── obesity_style.css
+├── main_js_server.js        # Node.js Express server
+├── main_py_server.py        # Optional: to run Python APIs directly
 ├── package.json
 └── README.md
+```
 
 
+```
 ---
 
 ## 📌 How It Works
