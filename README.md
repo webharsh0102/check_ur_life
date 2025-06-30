@@ -16,7 +16,6 @@ A lightweight AI-powered web application that predicts the risk of **Diabetes**,
 
 ## 🧱 Project Structure
 ```text
-```text
 DiseasePredictor/
 ├── backend/
 │   ├── diabetes_model.h5
@@ -43,9 +42,6 @@ DiseasePredictor/
 ├── main_py_server.py        # Optional: to run Python APIs directly
 ├── package.json
 └── README.md
-```
-
-
 ```
 ---
 
