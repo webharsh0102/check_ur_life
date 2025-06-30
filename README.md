@@ -89,7 +89,8 @@ python backend/heart_api.py
 python backend/obesity_api.py
 
 # 5. Visit http://localhost:3000 to use the web app
-----
+
+```
 
 📄 License
 This project is open source and available under the MIT License.
